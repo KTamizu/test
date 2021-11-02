@@ -1,6 +1,0 @@
-test/Main.java
- test.Main
-Library.java
- Library
-test/Hoge.java
- test.Hoge

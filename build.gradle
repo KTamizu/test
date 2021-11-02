@@ -8,6 +8,7 @@
 
 // Apply the java-library plugin to add support for Java Library
 plugins {
+
     id "java-library"
     id "maven-publish"
 }
@@ -43,8 +44,9 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
-}
+	implementation 'junit:junit:4.12'
 
+}
 
 publishing {
 	publications{

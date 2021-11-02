@@ -26,15 +26,12 @@ public class Test1st {
     }
 
     @Test
-    public void mainメソッドを実行() throws JsonProcessingException {
-        // main()メソッドを実行
+    public void mainMethodTest() throws JsonProcessingException {
         Main.main(new String[]{});
 
-        // 標準出力の内容を取得
         System.out.flush();
         final String actual = byteArrayOutputStream.toString();
 
-        // 期待値を設定
         final String expected = "{\"id\":10,\"name\":\"hoge\"}" + System.lineSeparator();
 
         assertThat(actual, is(expected));
