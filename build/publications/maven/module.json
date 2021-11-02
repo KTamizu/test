@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.test",
+    "module": "test",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "sa67ftgzvzhdtj4yd5m72rnoqu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-1.0.0.jar",
+          "url": "test-1.0.0.jar",
+          "size": 1848,
+          "sha512": "91d199f494bb753b7249c52e209cc0c02b8be592b54c5ee17bc155f2e5a4a5b86d0e9848c2c341c1173897d67df3eab9601efd4eba73d45662d68a357fdfa5d7",
+          "sha256": "35e8ab03dcffdc506e4a6390a1cea268d57a668fd61b3daf627e7eff239041ea",
+          "sha1": "371184feb234bc6038b89d297c46140c4fe61d86",
+          "md5": "4b60a31bce44f329681e64962c158174"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "23.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.13.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-1.0.0.jar",
+          "url": "test-1.0.0.jar",
+          "size": 1848,
+          "sha512": "91d199f494bb753b7249c52e209cc0c02b8be592b54c5ee17bc155f2e5a4a5b86d0e9848c2c341c1173897d67df3eab9601efd4eba73d45662d68a357fdfa5d7",
+          "sha256": "35e8ab03dcffdc506e4a6390a1cea268d57a668fd61b3daf627e7eff239041ea",
+          "sha1": "371184feb234bc6038b89d297c46140c4fe61d86",
+          "md5": "4b60a31bce44f329681e64962c158174"
+        }
+      ]
+    }
+  ]
+}
