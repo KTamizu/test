@@ -57,7 +57,7 @@ publishing {
 	}
 	repositories {
 		maven {
-      		url = 'http://host.docker.internal:8081/repository/Test/'
+      		url = 'http://host.docker.internal:8081/repository/Test'
       		credentials {
         		username = 'ktamizu'
         		password = 'qweQWE123'
